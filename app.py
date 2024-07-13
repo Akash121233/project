@@ -64,5 +64,3 @@ def get_all_items():
         items.append(Item(SI_no=row[0], Item_name=row[1], Rate=row[3], Quantity_Available=row[2]))
     return items
 
-# To run the FastAPI server, use the command:
-# uvicorn app:app --reload
